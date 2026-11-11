@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>永續作為文獻 Wiki</title>
+<meta name="description" content="一本由 AI 維護的研究筆記：企業永續揭露中象徵與實質作為的文獻、概念與判斷規則依據。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="開啟選單">☰</button>
+  <a class="brand" href="#/">
+    <span class="brand-mark">永</span>
+    <span class="brand-text">
+      <strong>永續作為文獻 Wiki</strong>
+      <small>象徵還是實質？一本由 AI 維護的研究筆記</small>
+    </span>
+  </a>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="search">
+      <input id="search" type="search" placeholder="搜尋頁面標題或內容…" autocomplete="off">
+    </div>
+    <nav id="nav"><p class="muted">載入目錄中…</p></nav>
+    <div class="sidebar-foot">
+      <a href="#/AGENTS">📘 AGENTS.md：給 AI 的工作規則</a>
+      <a href="#/raw">🗂 原始資料清單</a>
+    </div>
+  </aside>
+
+  <main class="content" id="content">
+    <p class="muted">載入中…</p>
+  </main>
+
+  <aside class="toc" id="toc"></aside>
+</div>
+
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
